@@ -305,9 +305,9 @@ export default function Projects() {
               </div>
               <div className="vis-gallery-grid">
                 {[
-                  { src:"/team-department/惠芬-投流询盘.png", name:"惠芬 - 投流询盘" },
-                  { src:"/team-department/淑琪-平台运营.jpg", name:"淑琪 - 平台运营" },
-                  { src:"/team-department/琦琦-内容运营.jpg", name:"琦琦 - 内容运营" },
+                  { src:"/Homie/team-department/惠芬-投流询盘.png", name:"惠芬 - 投流询盘" },
+                  { src:"/Homie/team-department/淑琪-平台运营.jpg", name:"淑琪 - 平台运营" },
+                  { src:"/Homie/team-department/琦琦-内容运营.jpg", name:"琦琦 - 内容运营" },
                 ].map((item, i) => (
                   <div key={i} className="vis-gallery-grid-item" style={{ aspectRatio: "1 / 1" }} onClick={() => setVisFullImage({image: item.src, text: item.name})}>
                     <img src={item.src} alt={item.name} className="vis-gallery-grid-img" loading="lazy" />
@@ -411,12 +411,12 @@ export default function Projects() {
               </div>
               <div className="vis-gallery-grid">
                 {[
-                  { src:"/event-site/1 (1).jpg", name:"活动现场 1" },
-                  { src:"/event-site/1 (2).jpg", name:"活动现场 2" },
-                  { src:"/event-site/1 (3).jpg", name:"活动现场 3" },
-                  { src:"/event-site/1 (4).jpg", name:"活动现场 4" },
-                  { src:"/event-site/1 (5).jpg", name:"活动现场 5" },
-                  { src:"/event-site/1 (6).jpg", name:"活动现场 6" },
+                  { src:"/Homie/event-site/1 (1).jpg", name:"活动现场 1" },
+                  { src:"/Homie/event-site/1 (2).jpg", name:"活动现场 2" },
+                  { src:"/Homie/event-site/1 (3).jpg", name:"活动现场 3" },
+                  { src:"/Homie/event-site/1 (4).jpg", name:"活动现场 4" },
+                  { src:"/Homie/event-site/1 (5).jpg", name:"活动现场 5" },
+                  { src:"/Homie/event-site/1 (6).jpg", name:"活动现场 6" },
                 ].map((item, i) => (
                   <div key={i} className="vis-gallery-grid-item" onClick={() => setVisFullImage({image: item.src, text: item.name})}>
                     <img src={item.src} alt={item.name} className="vis-gallery-grid-img" loading="lazy" />
@@ -442,13 +442,13 @@ export default function Projects() {
               </div>
               <div className="vis-gallery-grid">
                 {[
-                  { src:"/new-product/M20T (1).jpg", name:"M20T 01" },
-                  { src:"/new-product/M20T (2).jpg", name:"M20T 02" },
-                  { src:"/new-product/M20T (3).jpg", name:"M20T 03" },
-                  { src:"/new-product/M20T (4).jpg", name:"M20T 04" },
-                  { src:"/new-product/M20T (5).jpg", name:"M20T 05" },
-                  { src:"/new-product/M20T (6).jpg", name:"M20T 06" },
-                  { src:"/new-product/亚马逊详情图.png", name:"亚马逊详情图" },
+                  { src:"/Homie/new-product/M20T (1).jpg", name:"M20T 01" },
+                  { src:"/Homie/new-product/M20T (2).jpg", name:"M20T 02" },
+                  { src:"/Homie/new-product/M20T (3).jpg", name:"M20T 03" },
+                  { src:"/Homie/new-product/M20T (4).jpg", name:"M20T 04" },
+                  { src:"/Homie/new-product/M20T (5).jpg", name:"M20T 05" },
+                  { src:"/Homie/new-product/M20T (6).jpg", name:"M20T 06" },
+                  { src:"/Homie/new-product/亚马逊详情图.png", name:"亚马逊详情图" },
 
                 ].map((item, i) => (
                   <div key={i} className="vis-gallery-grid-item" onClick={() => {
@@ -482,15 +482,15 @@ export default function Projects() {
               </div>
               <div className="vis-gallery-grid">
                 {[
-                  { src:"/brand-insight/1.jpg", name:"满意度 1" },
-                  { src:"/brand-insight/2.jpg", name:"满意度 2" },
-                  { src:"/brand-insight/3.jpg", name:"满意度 3" },
-                  { src:"/brand-insight/4.jpg", name:"满意度 4" },
-                  { src:"/brand-insight/5.jpg", name:"满意度 5" },
-                  { src:"/brand-insight/6.jpg", name:"满意度 6" },
-                  { src:"/brand-insight/7.jpg", name:"满意度 7" },
-                  { src:"/brand-insight/8.jpg", name:"满意度 8" },
-                  { src:"/brand-insight/9.jpg", name:"满意度 9" },
+                  { src:"/Homie/brand-insight/1.jpg", name:"满意度 1" },
+                  { src:"/Homie/brand-insight/2.jpg", name:"满意度 2" },
+                  { src:"/Homie/brand-insight/3.jpg", name:"满意度 3" },
+                  { src:"/Homie/brand-insight/4.jpg", name:"满意度 4" },
+                  { src:"/Homie/brand-insight/5.jpg", name:"满意度 5" },
+                  { src:"/Homie/brand-insight/6.jpg", name:"满意度 6" },
+                  { src:"/Homie/brand-insight/7.jpg", name:"满意度 7" },
+                  { src:"/Homie/brand-insight/8.jpg", name:"满意度 8" },
+                  { src:"/Homie/brand-insight/9.jpg", name:"满意度 9" },
                 ].map((item, i) => (
                   <div key={i} className="vis-gallery-grid-item" onClick={() => setVisFullImage({image: item.src, text: item.name})}>
                     <img src={item.src} alt={item.name} className="vis-gallery-grid-img" loading="lazy" />
@@ -516,24 +516,24 @@ export default function Projects() {
               </div>
               <div className="vis-gallery-grid">
                 {[
-                  { src:"/marketing-plan/A (1).jpg", name:"营销方案 A1" },
-                  { src:"/marketing-plan/A (2).jpg", name:"营销方案 A2" },
-                  { src:"/marketing-plan/A (3).jpg", name:"营销方案 A3" },
-                  { src:"/marketing-plan/A (4).jpg", name:"营销方案 A4" },
-                  { src:"/marketing-plan/A (5).jpg", name:"营销方案 A5" },
-                  { src:"/marketing-plan/A (6).jpg", name:"营销方案 A6" },
-                  { src:"/marketing-plan/A (7).jpg", name:"营销方案 A7" },
-                  { src:"/marketing-plan/A (8).jpg", name:"营销方案 A8" },
-                  { src:"/marketing-plan/A (9).jpg", name:"营销方案 A9" },
-                  { src:"/marketing-plan/A (10).jpg", name:"营销方案 A10" },
-                  { src:"/marketing-plan/A (11).jpg", name:"营销方案 A11" },
-                  { src:"/marketing-plan/A (12).jpg", name:"营销方案 A12" },
-                  { src:"/marketing-plan/A (13).jpg", name:"营销方案 A13" },
-                  { src:"/marketing-plan/A (14).jpg", name:"营销方案 A14" },
-                  { src:"/marketing-plan/A (15).jpg", name:"营销方案 A15" },
-                  { src:"/marketing-plan/A (16).jpg", name:"营销方案 A16" },
-                  { src:"/marketing-plan/A (17).jpg", name:"营销方案 A17" },
-                  { src:"/marketing-plan/A (18).jpg", name:"营销方案 A18" },
+                  { src:"/Homie/marketing-plan/A (1).jpg", name:"营销方案 A1" },
+                  { src:"/Homie/marketing-plan/A (2).jpg", name:"营销方案 A2" },
+                  { src:"/Homie/marketing-plan/A (3).jpg", name:"营销方案 A3" },
+                  { src:"/Homie/marketing-plan/A (4).jpg", name:"营销方案 A4" },
+                  { src:"/Homie/marketing-plan/A (5).jpg", name:"营销方案 A5" },
+                  { src:"/Homie/marketing-plan/A (6).jpg", name:"营销方案 A6" },
+                  { src:"/Homie/marketing-plan/A (7).jpg", name:"营销方案 A7" },
+                  { src:"/Homie/marketing-plan/A (8).jpg", name:"营销方案 A8" },
+                  { src:"/Homie/marketing-plan/A (9).jpg", name:"营销方案 A9" },
+                  { src:"/Homie/marketing-plan/A (10).jpg", name:"营销方案 A10" },
+                  { src:"/Homie/marketing-plan/A (11).jpg", name:"营销方案 A11" },
+                  { src:"/Homie/marketing-plan/A (12).jpg", name:"营销方案 A12" },
+                  { src:"/Homie/marketing-plan/A (13).jpg", name:"营销方案 A13" },
+                  { src:"/Homie/marketing-plan/A (14).jpg", name:"营销方案 A14" },
+                  { src:"/Homie/marketing-plan/A (15).jpg", name:"营销方案 A15" },
+                  { src:"/Homie/marketing-plan/A (16).jpg", name:"营销方案 A16" },
+                  { src:"/Homie/marketing-plan/A (17).jpg", name:"营销方案 A17" },
+                  { src:"/Homie/marketing-plan/A (18).jpg", name:"营销方案 A18" },
                 ].map((item, i) => (
                   <div key={i} className="vis-gallery-grid-item" onClick={() => setVisFullImage({image: item.src, text: item.name})}>
                     <img src={item.src} alt={item.name} className="vis-gallery-grid-img" loading="lazy" />
@@ -559,11 +559,11 @@ export default function Projects() {
               </div>
               <div className="vis-gallery-grid">
                 {[
-                  { src:"/data-analysis/可视化 (1).jpg", name:"可视化 1" },
-                  { src:"/data-analysis/可视化 (2).jpg", name:"可视化 2" },
-                  { src:"/data-analysis/可视化 (3).jpg", name:"可视化 3" },
-                  { src:"/data-analysis/可视化 (4).jpg", name:"可视化 4" },
-                  { src:"/data-analysis/可视化 (5).jpg", name:"可视化 5" },
+                  { src:"/Homie/data-analysis/可视化 (1).jpg", name:"可视化 1" },
+                  { src:"/Homie/data-analysis/可视化 (2).jpg", name:"可视化 2" },
+                  { src:"/Homie/data-analysis/可视化 (3).jpg", name:"可视化 3" },
+                  { src:"/Homie/data-analysis/可视化 (4).jpg", name:"可视化 4" },
+                  { src:"/Homie/data-analysis/可视化 (5).jpg", name:"可视化 5" },
                 ].map((item, i) => (
                   <div key={i} className="vis-gallery-grid-item" onClick={() => setVisFullImage({image: item.src, text: item.name})}>
                     <img src={item.src} alt={item.name} className="vis-gallery-grid-img" loading="lazy" />
@@ -589,9 +589,9 @@ export default function Projects() {
               </div>
               <div className="vis-gallery-grid">
                 {[
-                  { src:"/independent-site/独立站搭建.png", name:"独立站搭建" },
-                  { src:"/independent-site/独立站详情.png", name:"独立站详情" },
-                  { src:"/independent-site/独立站截图.png", name:"独立站截图" },
+                  { src:"/Homie/independent-site/独立站搭建.png", name:"独立站搭建" },
+                  { src:"/Homie/independent-site/独立站详情.png", name:"独立站详情" },
+                  { src:"/Homie/independent-site/独立站截图.png", name:"独立站截图" },
                 ].map((item, i) => (
                   <div key={i} className="vis-gallery-grid-item" onClick={() => setVisFullImage({image: item.src, text: item.name})}>
                     <img src={item.src} alt={item.name} className="vis-gallery-grid-img" loading="lazy" />
@@ -617,9 +617,9 @@ export default function Projects() {
               </div>
               <div className="vis-gallery-grid">
                 {[
-                  { src:"/website-build/1.jpg", name:"官网搭建 1" },
-                  { src:"/website-build/2.jpg", name:"官网搭建 2" },
-                  { src:"/website-build/3.jpg", name:"官网搭建 3" },
+                  { src:"/Homie/website-build/1.jpg", name:"官网搭建 1" },
+                  { src:"/Homie/website-build/2.jpg", name:"官网搭建 2" },
+                  { src:"/Homie/website-build/3.jpg", name:"官网搭建 3" },
                 ].map((item, i) => (
                   <div key={i} className="vis-gallery-grid-item" onClick={() => setVisFullImage({image: item.src, text: item.name})}>
                     <img src={item.src} alt={item.name} className="vis-gallery-grid-img" loading="lazy" />
@@ -645,8 +645,8 @@ export default function Projects() {
               </div>
               <div className="vis-gallery-grid">
                 {[
-                  { src:"/crm-workflow/1.jpg", name:"工作流 1" },
-                  { src:"/crm-workflow/2.jpg", name:"工作流 2" },
+                  { src:"/Homie/crm-workflow/1.jpg", name:"工作流 1" },
+                  { src:"/Homie/crm-workflow/2.jpg", name:"工作流 2" },
                 ].map((item, i) => (
                   <div key={i} className="vis-gallery-grid-item" onClick={() => setVisFullImage({image: item.src, text: item.name})}>
                     <img src={item.src} alt={item.name} className="vis-gallery-grid-img" loading="lazy" />
