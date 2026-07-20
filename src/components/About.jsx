@@ -5,11 +5,11 @@ import React, { useState, useEffect, useCallback } from "react";
 import "./About.css";
 
 const carouselImages = [
-  "/homie-photo.png",
-  "/carousel-1.jpg",
-  "/carousel-2.jpg",
-  "/carousel-3.jpg",
-  "/carousel-4.jpg",
+  "/Homie/homie-photo.png",
+  "/Homie/carousel-1.jpg",
+  "/Homie/carousel-2.jpg",
+  "/Homie/carousel-3.jpg",
+  "/Homie/carousel-4.jpg",
 ];
 
 const stats = [
