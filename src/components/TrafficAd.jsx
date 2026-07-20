@@ -47,13 +47,13 @@ export default function TrafficAd({ onClose }) {
           <div className="ta-visual-card">
             <span className="ta-visual-label">投流金额增长趋势</span>
             <div className="ta-visual-img-wrap">
-              <img src="/Homie/tousu-chart-01.png" alt="投流金额增长趋势" className="ta-visual-img" style={{cursor:'pointer'}} onClick={() => setViewImg('/tousu-chart-01.png')} />
+              <img src="/Homie/tousu-chart-01.png" alt="投流金额增长趋势" className="ta-visual-img" style={{cursor:'pointer'}} onClick={() => setViewImg('/Homie/tousu-chart-01.png')} />
             </div>
           </div>
           <div className="ta-visual-card">
             <span className="ta-visual-label">投放效果数据看板</span>
             <div className="ta-visual-img-wrap">
-              <img src="/Homie/tousu-chart-02.png" alt="投放效果数据看板" className="ta-visual-img" style={{cursor:'pointer'}} onClick={() => setViewImg('/tousu-chart-02.png')} />
+              <img src="/Homie/tousu-chart-02.png" alt="投放效果数据看板" className="ta-visual-img" style={{cursor:'pointer'}} onClick={() => setViewImg('/Homie/tousu-chart-02.png')} />
             </div>
           </div>
         </div>
@@ -74,7 +74,7 @@ export default function TrafficAd({ onClose }) {
               onClick={(e) => e.stopPropagation()}
             >
               <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", padding:"14px 20px", borderBottom:"1px solid #eee", width:"100%", boxSizing:"border-box" }}>
-                <span style={{ fontSize:"0.9rem", fontWeight:600, color:"#1a1a2e" }}>{viewImg === "/tousu-chart-01.png" ? "投流金额增长趋势" : "投放效果数据看板"}</span>
+                <span style={{ fontSize:"0.9rem", fontWeight:600, color:"#1a1a2e" }}>{viewImg === "/Homie/tousu-chart-01.png" ? "投流金额增长趋势" : "投放效果数据看板"}</span>
                 <button onClick={() => setViewImg(null)} style={{ width:36, height:36, display:"flex", alignItems:"center", justifyContent:"center", border:"none", background:"#e0e0e6", borderRadius:"50%", cursor:"pointer", color:"#333" }}>
                   <X size={20} strokeWidth={2} />
                 </button>
