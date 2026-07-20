@@ -1,0 +1,62 @@
+﻿.revenue-chart-wrap {
+  padding: 24px 20px 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.revenue-chart-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.chart-axis-label {
+  font-size: 11px;
+  fill: #9a9aaa;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.chart-dot-label {
+  display: block;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+  color: #002FA7;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  letter-spacing: -0.01em;
+}
+
+.chart-stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-top: 16px;
+  padding: 0 4px;
+}
+
+.chart-stat {
+  background: #f7f7f8;
+  padding: 12px 10px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.chart-stat-label {
+  display: block;
+  font-size: 0.7rem;
+  color: #9a9aaa;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.chart-stat-value {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #002FA7;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+ 
+
+ .chart-dot-svg-label { font-size: 11px; font-weight: 600; fill: #002FA7; font-family: 'Inter', system-ui, -apple-system, sans-serif; }

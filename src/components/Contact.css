@@ -1,0 +1,187 @@
+﻿.contact-hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  cursor: auto;
+}
+
+/* Gradient transitions */
+.contact-hero::before,
+.contact-hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  pointer-events: none;
+}
+.contact-hero::before {
+  top: 0;
+  height: 100px;
+  background: linear-gradient(to bottom, rgba(245,245,247,1), transparent);
+}
+.contact-hero::after {
+  bottom: 0;
+  height: 100px;
+  background: linear-gradient(to top, rgba(245,245,247,1), transparent);
+}
+
+.contact-video-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 80% center;
+  z-index: 0;
+}
+
+@media (min-width: 768px) { .contact-video-bg { object-position: right center; } }
+@media (min-width: 1024px) { .contact-video-bg { object-position: center center; } }
+
+.contact-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 16px;
+}
+
+@media (min-width: 640px) { .contact-overlay { padding: 32px 40px; } }
+@media (min-width: 1024px) { .contact-overlay { padding: 32px 48px; } }
+
+.contact-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  padding: 4px;
+}
+
+.contact-hamburger {
+  background: rgba(0,0,0,0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 16px;
+  color: #fff;
+  cursor: pointer;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-mobile-menu {
+  position: absolute;
+  top: 72px;
+  left: 16px;
+  right: 16px;
+  background: rgba(0,0,0,0.3);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-radius: 16px;
+  padding: 20px;
+  border: 1px solid rgba(255,255,255,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 20;
+}
+
+.contact-mobile-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.contact-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 16px;
+}
+
+@media (min-width: 640px) { .contact-main { padding-bottom: 48px; } }
+@media (min-width: 1024px) { .contact-main { padding-bottom: 64px; } }
+
+.contact-main-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 640px) {
+  .contact-main-inner { flex-direction: row; align-items: flex-end; }
+}
+
+.contact-left { flex: 1; }
+
+.contact-heading {
+  font-family: "Askan Light", "Inter", serif;
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  max-width: 700px;
+  margin: 0;
+  font-weight: 300;
+}
+
+.contact-heading-highlight {
+  margin-bottom: 12px;
+}
+
+@media (min-width: 640px) { .contact-heading { font-size: 3.5rem; } }
+@media (min-width: 768px) { .contact-heading { font-size: 4.5rem; } }
+@media (min-width: 1024px) { .contact-heading { font-size: 5.5rem; } }
+
+.contact-subtitle-text {
+  color: rgba(255,255,255,0.7);
+  font-size: 0.75rem;
+  line-height: 1.7;
+  max-width: 520px;
+  margin: 0;
+}
+
+@media (min-width: 640px) { .contact-subtitle-text { font-size: 1rem; } }
+
+.contact-right-desktop { display: none; }
+
+@media (min-width: 640px) {
+  .contact-right-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+    align-self: flex-end;
+  }
+}
+
+.contact-feature-pill {
+  background: rgba(0,0,0,0.25);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 9999px;
+  padding: 8px 16px;
+  color: #fff;
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+@media (min-width: 640px) {
+  .contact-feature-pill { font-size: 0.875rem; padding: 8px 20px; }
+}
+
+.contact-feature-pills-mobile {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+@media (min-width: 640px) { .contact-feature-pills-mobile { display: none; } }

@@ -1,0 +1,215 @@
+ .sm-wrap {
+   padding: 0 6px 4px;
+   width: 100%;
+   box-sizing: border-box;
+ }
+ 
+ .sm-cards {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 16px;
+   margin-bottom: 32px;
+ }
+ 
+ .sm-card {
+   background: #f7f7f8;
+   border-radius: 8px;
+   overflow: hidden;
+   transition: transform 0.25s ease, box-shadow 0.25s ease;
+ }
+ .sm-card:hover {
+   transform: translateY(-3px);
+   box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+ }
+ 
+ .sm-card-image {
+   width: 100%;
+   aspect-ratio: 16 / 10;
+   overflow: hidden;
+   background: #eee;
+ }
+ .sm-card-image img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   display: block;
+ }
+ 
+ .sm-card-info {
+   padding: 12px 14px 14px;
+   display: flex;
+   flex-direction: column;
+   gap: 2px;
+ }
+ .sm-card-name {
+   font-size: 0.9rem;
+   font-weight: 600;
+   color: #1a1a2e;
+ }
+ .sm-card-id {
+   font-size: 0.75rem;
+   color: #9a9aaa;
+   font-family: 'Inter', system-ui, sans-serif;
+ }
+ .sm-card-stats {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   margin-top: 6px;
+ }
+ .sm-card-followers {
+   font-size: 1.1rem;
+   font-weight: 700;
+   color: var(--accent, #002FA7);
+ }
+ .sm-card-growth {
+   font-size: 0.8rem;
+   font-weight: 600;
+   color: #22a67e;
+   background: #e8f5f0;
+   padding: 2px 8px;
+   border-radius: 3px;
+ }
+ 
+ .sm-chart-section {
+   margin-bottom: 20px;
+ }
+ .sm-chart-title {
+   display: block;
+   font-size: 0.85rem;
+   font-weight: 600;
+   color: #1a1a2e;
+   margin-bottom: 12px;
+   letter-spacing: 0.02em;
+ }
+ 
+ .sm-chart-svg {
+   width: 100%;
+   height: auto;
+   display: block;
+ }
+ .sm-axis-label {
+   font-size: 11px;
+   fill: #9a9aaa;
+   font-family: 'Inter', system-ui, sans-serif;
+ }
+ .sm-value-label {
+   font-size: 11px;
+   font-weight: 600;
+   font-family: 'Inter', system-ui, sans-serif;
+   dominant-baseline: middle;
+ }
+ 
+ .sm-legend {
+   display: flex;
+   justify-content: center;
+   gap: 24px;
+   margin-top: 8px;
+ }
+ .sm-legend-item {
+   display: flex;
+   align-items: center;
+   gap: 6px;
+ }
+ .sm-legend-dot {
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   flex-shrink: 0;
+ }
+ .sm-legend-label {
+   font-size: 0.8rem;
+   color: #666;
+   font-family: 'Inter', system-ui, sans-serif;
+ }
+ 
+ .sm-stats-row {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 12px;
+ }
+ .sm-stat {
+   background: #f7f7f8;
+   padding: 14px 10px;
+   text-align: center;
+   border-radius: 4px;
+ }
+ .sm-stat-label {
+   display: block;
+   font-size: 0.7rem;
+   color: #9a9aaa;
+   font-weight: 500;
+   margin-bottom: 4px;
+ }
+ .sm-stat-value {
+   display: block;
+   font-size: 0.95rem;
+   font-weight: 600;
+   color: #1a1a2e;
+   font-family: 'Inter', system-ui, sans-serif;
+ }
+
+.sm-modal {
+  width: min(90vw, 820px);
+  max-height: 88vh;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 16px 56px rgba(0,0,0,0.16);
+}
+.sm-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 24px;
+  border-bottom: 1px solid #eeeef0;
+  flex-shrink: 0;
+}
+.sm-modal-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+.sm-modal-body {
+  padding: 24px 24px 20px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.sm-card-followers-label {
+  font-size: 0.7rem;
+  color: #9a9aaa;
+  font-weight: 500;
+  margin-right: -6px;
+}
+
+.sm-full-image-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0,0,0,0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+}
+.sm-full-image-wrap {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  background: #fff;
+}
+.sm-full-image-img {
+  display: block;
+  max-width: 100%;
+  max-height: 85vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+

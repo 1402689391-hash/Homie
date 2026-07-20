@@ -1,0 +1,62 @@
+﻿*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f8f9;
+  --bg-card: #ffffff;
+  --bg-elevated: #f4f4f6;
+  --text-primary: #000000;
+  --text-secondary: #6b6b7b;
+  --text-muted: #9a9aaa;
+  --accent: #000000;
+  --accent-light: #444444;
+  --accent-glow: rgba(0, 0, 0, 0.04);
+  --border: #e6e6eb;
+  --border-light: #d4d4dc;
+  --max-width: 1700px;
+  --font-sans: 'Inter', 'Noto Sans SC', system-ui, -apple-system, sans-serif;
+  --nav-height: 72px;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+}
+
+::selection {
+  background: #000;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+}
