@@ -60,7 +60,7 @@ export default function About() {
           <div className="about-left">
             <Reveal animation="fade-right" delay={0.05}>
               <img
-                src="/hello.png"
+                src="/Homie/hello.png"
                 alt="Hello I'm"
                 className="about-hello-img"
               />

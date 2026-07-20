@@ -42,7 +42,7 @@ export default function Hero() {
         <div className="hero-nav-inner">
           <div className="hero-nav-left">
             <a href="/" className="hero-logo">
-              <img src="/hm-logo.png" alt="HM" className="hero-logo-img" />
+              <img src="/Homie/hm-logo.png" alt="HM" className="hero-logo-img" />
               <span className="hero-brand-text">Homie</span>
             </a>
             <div className="hero-tags hero-tags--nav">
@@ -87,7 +87,7 @@ export default function Hero() {
               >
                 <X size={18} strokeWidth={2} />
               </button>
-              <img src="/qrcode.jpg" alt="微信二维码" className="qr-image" />
+              <img src="/Homie/qrcode.jpg" alt="微信二维码" className="qr-image" />
               <p className="qr-hint">扫码添加微信</p>
             </motion.div>
           </motion.div>
