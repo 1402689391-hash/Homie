@@ -7,7 +7,7 @@ import { X } from "lucide-react";
    {
      id: "FB",
      name: "Facebook",
-     image: "/Homie/social-media/fb-page.png",
+     image: "/social-media/fb-page.png",
      color: "#1877F2",
      data: [
        { month: "1月", value: 182069 },
@@ -23,7 +23,7 @@ import { X } from "lucide-react";
    {
      id: "INS",
      name: "Instagram",
-     image: "/Homie/social-media/ins-page.png",
+     image: "/social-media/ins-page.png",
      color: "#E4405F",
      data: [
        { month: "1月", value: 22674 },
@@ -39,7 +39,7 @@ import { X } from "lucide-react";
    {
      id: "TK",
      name: "TikTok",
-     image: "/Homie/social-media/tk-page.png",
+     image: "/social-media/tk-page.png",
      color: "#000000",
      data: [
        { month: "1月", value: 20700 },
