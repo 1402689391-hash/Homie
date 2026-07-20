@@ -47,13 +47,13 @@ export default function TrafficAd({ onClose }) {
           <div className="ta-visual-card">
             <span className="ta-visual-label">投流金额增长趋势</span>
             <div className="ta-visual-img-wrap">
-              <img src="/tousu-chart-01.png" alt="投流金额增长趋势" className="ta-visual-img" style={{cursor:'pointer'}} onClick={() => setViewImg('/tousu-chart-01.png')} />
+              <img src="/Homie/tousu-chart-01.png" alt="投流金额增长趋势" className="ta-visual-img" style={{cursor:'pointer'}} onClick={() => setViewImg('/tousu-chart-01.png')} />
             </div>
           </div>
           <div className="ta-visual-card">
             <span className="ta-visual-label">投放效果数据看板</span>
             <div className="ta-visual-img-wrap">
-              <img src="/tousu-chart-02.png" alt="投放效果数据看板" className="ta-visual-img" style={{cursor:'pointer'}} onClick={() => setViewImg('/tousu-chart-02.png')} />
+              <img src="/Homie/tousu-chart-02.png" alt="投放效果数据看板" className="ta-visual-img" style={{cursor:'pointer'}} onClick={() => setViewImg('/tousu-chart-02.png')} />
             </div>
           </div>
         </div>
